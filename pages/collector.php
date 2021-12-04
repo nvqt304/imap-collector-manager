@@ -1,8 +1,9 @@
 <div class="col-12">
     <div class="card">
         <div class="card-header">
-            <h3 class="card-title">
-            </h3>
+            <div class="btn-group">
+                <a href="?p=them-moi-nguoi-thu-thap"><button type="button" class="btn btn-success btn-sm">Thêm mới</button></a>
+            </div>
         </div>
         <div class="card-body">
             <table id="table-collector" class="table table-bordered table-hover">
@@ -30,11 +31,14 @@
                                     Quãng đường đã di chuyển trong 24h <span class="float-right badge bg-info">35 km</span>
                                 </li>
                                 <li class="nav-item">
-                                    Số lần bị từ chối/tổng số lần cập nhật thông tin <span class="float-right badge bg-info">3/31</span>
+                                    Số lần bị từ chối/tổng số lần cập nhật thông tin <span class="float-right badge bg-danger">3/31</span>
                                 </li>
                               </ul>
                         </td>
-                        <td class="align-middle text-center"><span class="badge bg-success">Hoạt động</span></td>
+                        <td class="align-middle text-center">
+                            <span class="badge bg-success">Hoạt động</span><br/>
+                            <span class="badge bg-success">Tự động cập nhật</span>
+                        </td>
                         <td class="align-middle text-center">
                             <div class="btn-group">
                                 <a href="?p=chi-tiet-nguoi-thu-thap"><button type="button" class="btn btn-info btn-sm">Xem chi tiết</button></a>

@@ -40,8 +40,7 @@ function initMap() {
         center: listLocation[0],
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        mapTypeControl: true,
-        fullscreenControl: false,
+        disableDefaultUI: true
     }
     map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
 
@@ -67,7 +66,9 @@ function initMap() {
     marker2.setMap(map);
     poly.setMap(map);
     var infowindow = new google.maps.InfoWindow({
-        content: "<h1>Hello</h1>",
+        content: "<img src='https://giadinhphattu.vn/uploads/news/2020_08/bien210.jpg' style='width: 50px;height:50px'/>" +
+            "<img src='https://giadinhphattu.vn/uploads/news/2020_08/bien210.jpg' style='width: 50px;height:50px'/>" +
+            "<img src='https://giadinhphattu.vn/uploads/news/2020_08/bien210.jpg' style='width: 50px;height:50px'/>",
     })
     marker.addListener("click", () => {
         infowindow.open(map, marker);

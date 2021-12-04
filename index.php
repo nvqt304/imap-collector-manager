@@ -44,9 +44,13 @@
                     case 'quan-ly-nguoi-thu-thap':
                         require './pages/collector.php';
                         break;
+                    case 'them-moi-nguoi-thu-thap':
+                        require './pages/collector-add.php';
+                        break;
                     case 'chi-tiet-nguoi-thu-thap':
                         require './pages/collector-detail.php';
                         break;
+                    default:  require './pages/dashboard.php';
                 }
             ?>
             </div>

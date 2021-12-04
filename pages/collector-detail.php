@@ -9,8 +9,7 @@
                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
                     <i class="fas fa-minus"></i>
                 </button>
-                <button type="button" class="btn btn-tool" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
+
                 </button>
             </div>
         </div>
@@ -62,12 +61,11 @@
                 <button type="button" class="btn btn-tool" data-card-widget="maximize">
                     <i class="fas fa-expand"></i>
                  </button>
-                <button type="button" class="btn btn-tool" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
+
                 </button>
             </div>
         </div>
-        <div class="card-body" style="height:550px;">
+        <div class="card-body" style="height:600px;">
             <div class="row" id="googleMap" style="height:100%">
                 
             </div>
@@ -75,4 +73,4 @@
     </div>
 </div>
 <script src="dist/js/ggMap.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfTHZes2sfBdeH8kNK_wikq5cRRDIYCp8&callback=initMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDenYGEjTF0usdDwY3_i4GltAPzC5v3Dw&callback=initMap"></script>
